@@ -11,7 +11,7 @@ public class Main {
                     newArr[val] = arrayItem;
                     flag = true;
                     break;
-                }else {
+                } else {
                     flag = false;
                 }
             }
@@ -23,6 +23,4 @@ public class Main {
         System.out.println(order("Empty input should return empty string"));
         System.out.println(order("is2 Thi1s T4est 3a"));
     }
-
-
 }
